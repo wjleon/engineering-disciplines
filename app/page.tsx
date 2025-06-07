@@ -85,6 +85,7 @@ export default function EngineeringResearchWebsite() {
               Explore Research <ChevronDown className="ml-2 h-5 w-5" />
             </Button>
             <Button
+              onClick={() => scrollToSection("conclusions")}
               variant="outline"
               className="border-white text-white hover:bg-white/10 px-8 py-3 text-lg font-semibold"
             >
